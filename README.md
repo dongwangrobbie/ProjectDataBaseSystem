@@ -1,11 +1,5 @@
 # ProjectDataBaseSystem
-
-
-Introduction
- This report is a reference manual that explains the Emergency Helper System (EHS). It will show what is the main idea of the database design. Besides, it will display the Entity-relation diagram, which shows the general picture how the database system works. In this diagram, each entity and relation will be explained.
-(Phase 2 or later)
- The rescue system provides a dashboard. Its graphical user interface and functions will be explained too. In the fourth part, it shows the model-view-controller system.  
-Emergency Helper System (EHS) 
+ 
 The Emergency Helper System is also called EHS, which is the application that manages the data by relational database system. This system is exposed to client applications through a REST API. The backend of the system is relational, and allows the user to browse categories for resources (i.e., water, food, medications, tools, heavy equipment, etc.), and search for specific items and obtain who is supplying items, and who needs the items. Also, it provides location (GPS) and address of the person in need and that of the supplier. You will provide some free resources while others have a cost. 
 Besides, the system has a simple Web-based UI to search and view resources, with the option to locate the person and supplier in a Google map. Also it provides a Web-based dashboard indicating relevant statistics for supply/demand of resource categories, and trending data (e.g., charts that show if resources are increasing or decreasing). 
 
